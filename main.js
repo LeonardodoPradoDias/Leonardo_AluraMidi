@@ -61,11 +61,10 @@ function tocaSomPom () {
  }
  document.querySelector('.tecla_tic').onclick = tocaSomTic
 
- function tocaSomTic () {
-   document.querySelector('#som_tecla_tom').play();
-  
-}
-document.querySelector('.som_tecla_tom').onclick = tocaSomTic
+ function tocaSomtom () {
+   document.querySelector('#som_tecla_tom').pley();
+ }
+ document.querySelector('.tecla_tom').onclick = tocaSomtom
  
  
  
